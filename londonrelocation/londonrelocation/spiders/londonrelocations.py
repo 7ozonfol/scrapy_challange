@@ -18,6 +18,7 @@ class LondonrelocationsSpider(scrapy.Spider):
     def parse_area(self, response):
         area_urls = response.xpath('.//div[contains(@class,"area-box-pdh")]//h4/a/@href').extract()
         for area_url in area_urls:
+            LondonrelocationsSpider.page_number=2
             yield Request(url=area_url,
                           callback=self.parse_area_pages)
 
