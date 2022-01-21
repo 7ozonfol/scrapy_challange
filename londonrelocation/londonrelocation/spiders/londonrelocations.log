@@ -1,0 +1,1064 @@
+2022-01-21 14:43:27 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: londonrelocation)
+2022-01-21 14:43:27 [scrapy.utils.log] INFO: Versions: lxml 4.7.1.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.7.0, Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)], pyOpenSSL 21.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform Windows-10-10.0.19042-SP0
+2022-01-21 14:43:27 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-01-21 14:43:27 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'londonrelocation',
+ 'LOG_FILE': 'londonrelocations.log',
+ 'NEWSPIDER_MODULE': 'londonrelocation.spiders',
+ 'SPIDER_MODULES': ['londonrelocation.spiders']}
+2022-01-21 14:43:27 [scrapy.extensions.telnet] INFO: Telnet Password: 9b89421a0447b77a
+2022-01-21 14:43:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-01-21 14:43:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-01-21 14:43:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-01-21 14:43:27 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-01-21 14:43:27 [scrapy.core.engine] INFO: Spider opened
+2022-01-21 14:43:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-01-21 14:43:27 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-01-21 14:43:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=> (referer: None)
+2022-01-21 14:43:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=> (referer: None)
+2022-01-21 14:43:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61591> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61615> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61619> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61621> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61629> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61625> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61591> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 55, in populate_item
+    room_count = detailsTable[detailsTable.index('Number of bedrooms')+1]
+ValueError: 'Number of bedrooms' is not in list
+2022-01-21 14:43:30 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:31 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Holzerath&maxLocations=1 HTTP/1.1" 200 237
+2022-01-21 14:43:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61615> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 89, in populate_item
+    rent = detailsTable[detailsTable.index('Basic rent')+1][:-2]
+ValueError: 'Basic rent' is not in list
+2022-01-21 14:43:31 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:32 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Pluwig&maxLocations=1 HTTP/1.1" 200 235
+2022-01-21 14:43:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61619> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 89, in populate_item
+    rent = detailsTable[detailsTable.index('Basic rent')+1][:-2]
+ValueError: 'Basic rent' is not in list
+2022-01-21 14:43:32 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:33 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Trier%20/%20Ehrang&maxLocations=1 HTTP/1.1" 200 275
+2022-01-21 14:43:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61621> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 89, in populate_item
+    rent = detailsTable[detailsTable.index('Basic rent')+1][:-2]
+ValueError: 'Basic rent' is not in list
+2022-01-21 14:43:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61635> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61617> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=57249> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61623> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61553> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=49117> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=57247> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=57251> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:33 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:34 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Trier%20/%20Ehrang&maxLocations=1 HTTP/1.1" 200 275
+2022-01-21 14:43:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61629> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 89, in populate_item
+    rent = detailsTable[detailsTable.index('Basic rent')+1][:-2]
+ValueError: 'Basic rent' is not in list
+2022-01-21 14:43:34 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:34 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Aach&maxLocations=1 HTTP/1.1" 200 240
+2022-01-21 14:43:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61625> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 89, in populate_item
+    rent = detailsTable[detailsTable.index('Basic rent')+1][:-2]
+ValueError: 'Basic rent' is not in list
+2022-01-21 14:43:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61609> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61627> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61631> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61633> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+2022-01-21 14:43:34 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:35 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Talling&maxLocations=1 HTTP/1.1" 200 233
+2022-01-21 14:43:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61635>
+{'address': 'Talling ( 230 EW ) im Hunsrück ist eine Ortsgemeinde im Landkreis '
+            'Bernkastel-Wittlich in Rheinland-Pfalz. Sie gehört der '
+            'Verbandsgemeinde Thalfang am Erbeskopf an.',
+ 'balcony': True,
+ 'bathroom_count': 2,
+ 'city': 'Talling',
+ 'currency': 'EUR',
+ 'deposit': '2640',
+ 'description': 'dieses großzügige und helle, optimal geschnittene haus bietet '
+                'ihnen auf 152 m² wohnfläche viel platz für ihre familie und '
+                'ihr haustier. ein keller (hobby, handwerk,etc.) und ein '
+                'großer, trockener speicher gehören ebenso zum objekt. ein '
+                'herrliche terrasse, ein balkon und ein garten runden das heim '
+                'im grünen ab. ein kleines anwesen mit viel potential und '
+                'wohlfühlfaktor! im erdgeschoss befindet sich die küche (ebk '
+                'kann für 80,- euro mtl. vom vermieter eingebaut werden), mit '
+                'blick und zugang zur terrasse und zum garten. diese können '
+                'sie aufgrund der größe auch als wohnküche nutzen. das '
+                'benachbarte esszimmer mit fenster verbindet sich mit dem '
+                'wohnzimmer und bietet eine helle und offene einheit. im '
+                'erdgeschoss liegt auch das modern geflieste und gestaltete '
+                'tageslichtbad mit duschwanne, waschbecken und toilette. über '
+                'das treppenhaus gelangen sie in das obergeschoss und damit zu '
+                'den 3 schlafzimmern. zwei von diesen sind mit praktischen '
+                'einbauschränken versehen, alle 3 haben große fenster und '
+                'helle böden. vom flur aus erreichen sie ein weiteres, großes '
+                'tageslichtbad mit dunklen boden-, und hellen wandfliesen. '
+                'modern und freundlich mit vielen ablagemöglichkeiten, dusche, '
+                'waschbecken und toilette. im obergeschoss gelangen sie auf '
+                'den balkon mit weitblick und über die treppe zum speicher. '
+                'dieser ist weitläufig, trocken, und bietet viele '
+                'abstellmöglichkeiten. im kellergeschoss bietet sich zudem die '
+                'möglichkeit einen hobby- oder heimwerkerraum einzurichten. '
+                'wer hier mit seiner familie und sogar mit willkommenen '
+                'haustieren einzieht, fühlt sich wie in den eigenen vier '
+                'wänden, mit viel platz zum leben, stauraum, '
+                'rückzugsmöglichkeiten und inmitten einer wunderschönen natur. '
+                'und das alles zu einem wirklich fairen preis! das haus wird '
+                'frisch gestrichen und tapeziert übergeben. energy pass (for '
+                'buildings)type: according to constructionvalid until: final '
+                'energy demand: 116.00 kwh/(m²*a)year of construction '
+                'according energy pass: 1999main fuel type: oilclass: d- '
+                'kunststofffenster, doppelverglast - die böden sind mit neuem '
+                'designer-pvc verlegt - die wände sind mit raufasertapete - '
+                'das haus verfügt über eine ölzentralheizung - der '
+                'waschmaschinenanschluss befindet sich im bad - kaminanschluss '
+                'in der küche - sat- anschluss ist vorhanden, des weiteren '
+                'selbstverständlich auch internet- und telefonanschluss - '
+                'großzügige terrasse - balkon - der garten ist zur '
+                'alleinnutzung - mehrere stellplätze im freien - haustiere '
+                'erlaubt! - zu den 280,00 € nebenkosten kommen die stromkosten '
+                'noch hinzutalling ( 230 ew ) im hunsrück ist eine '
+                'ortsgemeinde im landkreis bernkastel-wittlich in '
+                'rheinland-pfalz. sie gehört der verbandsgemeinde thalfang am '
+                'erbeskopf an. der ort liegt etwa 30 km östlich von trier und '
+                '8 km von der anschlussstelle mehring der a 1 entfernt, mitten '
+                'im hunsrück. die höchste erhebung in rheinland-pfalz, der '
+                'erbeskopf mit 816 m ü. nhn, ist etwa zehn kilometer entfernt. '
+                'das nahe gelegene thalfang ist seit 2001 staatlich '
+                'anerkannter luftkurort und hat nachgewiesener maßen mit die '
+                'sauberste luft in deutschland und für asthmatiker bestens '
+                'geeignet. nach trier benötigen sie mit dem wagen 30 minuten. '
+                'bernkastel und idar-oberstein liegen ca. 30 km entfernt, '
+                'hermeskeil ca. 18 km. talling entwickelt sich stetig und '
+                'zukunftsfähig weiter und hat sich dabei die dörflichen '
+                'strukturen bewahrt. hier leben sie im einklang mit der natur, '
+                'aber trotzdem nahe eines oberzentrums, trier.bei '
+                'grundsätzlich weiterem interesse bieten wir ihnen auch gerne '
+                'eine innenbesichtigung an. wir führen sie kompetent und '
+                'völlig unverbindlich. die in unseren exposé darstellungen '
+                'aufgenommenen daten beruhen auf eigentümerangaben und sind '
+                'unverbindlich. irrtümer können nicht ausgeschlossen werden. '
+                'bezüglich der inhalte verweisen wir außerdem grundsätzlich '
+                'auf unsere veröffentlichten allgemeinen geschäftsbedingungen '
+                '(agb in "link" impressum).',
+ 'external_id': '61635',
+ 'external_images_count': 36,
+ 'external_link': 'https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61635',
+ 'external_source': 'Londonrelocations_PySpider_Germany_de',
+ 'images': ['https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749101.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/Foto_749031.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749033.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749035.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749037.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749039.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749041.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749043.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749045.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749047.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749049.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749051.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749053.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749055.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749057.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749059.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749061.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749063.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749065.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749067.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749069.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749071.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749073.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749075.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749077.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749079.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749081.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749083.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749085.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749087.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749089.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749091.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749093.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749095.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749097.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61635/_749099.jpg'],
+ 'landlord_email': 'info@vermietungs-profi.de',
+ 'landlord_name': 'Mr.  Stephan Franzen',
+ 'landlord_phone': '0651- 99 35 36 0',
+ 'latitude': '-3.18059999999997',
+ 'longitude': '119.91090000000008',
+ 'position': 1,
+ 'property_type': 'house',
+ 'rent': '880',
+ 'room_count': 3,
+ 'square_meters': '152',
+ 'terrace': True,
+ 'title': 'Einfamilienhaus mit viel Platz, modernem Bad, Balkon, Terrasse und  '
+          'schönem Garten!',
+ 'utilities': '280',
+ 'washing_machine': True,
+ 'zipcode': '54426'}
+2022-01-21 14:43:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61617> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 55, in populate_item
+    room_count = detailsTable[detailsTable.index('Number of bedrooms')+1]
+ValueError: 'Number of bedrooms' is not in list
+2022-01-21 14:43:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=57249> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 56, in populate_item
+    bathroom_count= detailsTable[detailsTable.index('Number of bathrooms')+1]
+ValueError: 'Number of bathrooms' is not in list
+2022-01-21 14:43:35 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:36 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Trier&maxLocations=1 HTTP/1.1" 200 237
+2022-01-21 14:43:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61553>
+{'address': 'Diese tolle Wohnung befindet sich im 3. OG eines '
+            'Mehrparteienhauses in der Innenstadt von Trier.',
+ 'bathroom_count': 1,
+ 'city': 'Trier',
+ 'currency': 'EUR',
+ 'deposit': 'Oh',
+ 'description': 'diese großzügig geschnittene wohnung bietet ihnen auf ca. '
+                '148m² wohnfläche 5 große zimmer, zum teil mit deckenhohen '
+                'einbauschränken, eine küche inklusive einbauküche, ein '
+                'badezimmer mit separatem toilettenraum, ein gäste wc und '
+                'einen flur. die wohnung eignet sich hervorragend als wg, aber '
+                'auch familien sind hier herzlich willkommen. der wohnung '
+                'zugeteilt ist ein kellerraum sowie ein stellplatz im freien '
+                'welcher mit angemietet werden kann. die wohnung erreichen sie '
+                'bequem mit dem aufzug. da das mietverhältnis bis sommer 2023 '
+                'befristet ist, wird keine kaution erhoben. eventuell ist es '
+                'möglich bis ende 2023 zu verlängern.das haus verfügt über '
+                'eine gaszentralheizung die böden sind mit pvc ausgelegt '
+                'fenster isolierverglast die einbauküche ist im mietpreis '
+                'inklusive sat tv ist vorhanden zu den 350,00€ nebenkosten '
+                'sind zusätzlich die stromkosten zu zahlen, der abschließbare '
+                'stellplatz im freien kann für 80,00€ im monat mit angemietet '
+                'werden..diese tolle wohnung befindet sich im 3. og eines '
+                'mehrparteienhauses in der innenstadt von trier. trier, die '
+                'älteste stadt deutschlands, ist der kulturelle und '
+                'wirtschaftliche mittelpunkt der gesamten region. die '
+                'großstadt trier hat etwas mehr als einwohner und ist '
+                'insbesondere durch die zentrale lage auf dem europäischen '
+                'markt ein zukunftsstandort. die komplette infrastruktur eines '
+                'oberzentrums ist selbstverständlich vorhanden. zur '
+                'luxemburger grenze braucht man von trier aus ca. 10 '
+                'autominuten.bei grundsätzlich weiterem interesse bieten wir '
+                'ihnen auch gerne eine innenbesichtigung an. wir führen sie '
+                'kompetent und völlig unverbindlich. die in unseren exposé '
+                'darstellungen aufgenommenen daten beruhen auf '
+                'eigentümerangaben und sind unverbindlich. irrtümer können '
+                'nicht ausgeschlossen werden. bezüglich der inhalte verweisen '
+                'wir außerdem grundsätzlich auf unsere veröffentlichten '
+                'allgemeinen geschäftsbedingungen (agb in "link" impressum).',
+ 'elevator': True,
+ 'external_id': '61553',
+ 'external_images_count': 26,
+ 'external_link': 'https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61553',
+ 'external_source': 'Londonrelocations_PySpider_Germany_de',
+ 'images': ['https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746191.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746141.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746143.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746145.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746147.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746149.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746151.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746153.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746155.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746157.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746159.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746161.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746163.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746165.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746167.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746169.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746171.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746173.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746175.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746177.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746179.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746181.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746183.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746185.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746187.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61553/_746189.jpg'],
+ 'landlord_email': 'info@vermietungs-profi.de',
+ 'landlord_name': 'Mr.  Stephan Franzen',
+ 'landlord_phone': '0651- 99 35 36 0',
+ 'latitude': '49.757340000000056',
+ 'longitude': '6.636290000000031',
+ 'parking': True,
+ 'position': 2,
+ 'property_type': 'apartment',
+ 'rent': '980',
+ 'room_count': 4,
+ 'square_meters': '148',
+ 'title': 'Gerne als Studenten-WG, kautionsfrei, optimale Lage\r\n'
+          '5 ZKB, Gäste WC, Aufzug, Einbauküche',
+ 'utilities': '350',
+ 'zipcode': '54295'}
+2022-01-21 14:43:36 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:37 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Trier&maxLocations=1 HTTP/1.1" 200 237
+2022-01-21 14:43:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=haus&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61623> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=haus&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 89, in populate_item
+    rent = detailsTable[detailsTable.index('Basic rent')+1][:-2]
+ValueError: 'Basic rent' is not in list
+2022-01-21 14:43:37 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:38 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Kordel&maxLocations=1 HTTP/1.1" 200 236
+2022-01-21 14:43:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=49117>
+{'address': 'Kordel, amtliche Schreibweise bis 15. Mai 1936: Cordel, ist eine '
+            'Ortsgemeinde im Landkreis Trier-Saarburg in Rheinland-Pfalz. Sie '
+            'gehört der Verbandsgemeinde Trier-Land an. Kordel ist ein '
+            'staatlich anerkannter Erholungsort.',
+ 'available_date': '01.05.2022',
+ 'balcony': True,
+ 'bathroom_count': 1,
+ 'city': 'Kordel',
+ 'currency': 'EUR',
+ 'deposit': '1280',
+ 'description': 'angeboten wird eine wohnung in kordel mit einer wohnfläche '
+                'von ca. 87 m² aufgeteilt in zwei schlafzimmer, ein '
+                'großzügiger wohn/essbereich, ein großes tageslichtbad mit '
+                'dusche, eine küche, ein waschmaschinenanschluss sowie ein '
+                'flur. der wohnung zugeteilt ist ein speicher und ein '
+                'stellplatz im freien welcher für 30,00 € im monat mit '
+                'angemietet werden muss. die wohnung ist verfügbar ab , ggf. '
+                'auch ab nach absprache. geeignet ist die wohnung für ein paar '
+                'oder eine einzelperson ohne haustiere.- böden mit parkett und '
+                'fliesen ausgestattet - ölzentralheizung im haus - fenster in '
+                'braun, holz - türen einheitlich in braun - der '
+                'waschmaschinenanschluss befindet sich im bad - sat tv ist '
+                'vorhanden zu den nebenkosten von 200,00 € sind zusätzlich die '
+                'stromkosten zu zahlen. der stellplatz im freien ist für 30,00 '
+                '€ im monat anzumieten.kordel, amtliche schreibweise bis 15. '
+                'mai 1936: cordel, ist eine ortsgemeinde im landkreis '
+                'trier-saarburg in rheinland-pfalz. sie gehört der '
+                'verbandsgemeinde trier-land an. kordel ist ein staatlich '
+                'anerkannter erholungsort. kordel liegt in der eifel am fluss '
+                'kyll. zur ortsgemeinde kordel gehören die ortsteile burg '
+                'ramstein und hochmark, der 1953 eingegliederte ortsteil '
+                'kimmlingen sowie die wohnplätze kimmerbach, kimmlingerhof, '
+                'ramsteinerbrücke und reitzenmühle. bei kordel befinden sich '
+                'die burg ramstein und die genovevahöhle. vor dieser höhle '
+                'wurden feuersteinsplitter und schaber aus der älteren '
+                'steinzeit sowie steinbeile und speerspitzen aus der jüngeren '
+                'steinzeit gefunden. im übrigen lassen sich teile der '
+                'römischen langmauer auf der gemarkung der ortsgemeinde '
+                'nachweisen. nahe der burg befinden sich die butzerbachfälle, '
+                'eine folge von wasserfällen über buntsandsteinbänke, die '
+                'durch einen pfad mit 30 meter langer netzbrücke erschlossen '
+                'ist. siehe auch: liste der kulturdenkmäler in kordel und '
+                'liste der naturdenkmale in kordel der bahnhof kordel liegt an '
+                'der eifelbahn köln–euskirchen–gerolstein–trier, auf der im '
+                'schienenpersonennahverkehr unter dem markennamen vareo der '
+                'eifel-express (re/rb 22) köln - euskirchen - gerolstein – '
+                'trier mit fahrzeugen der baureihe 620 und baureihe 622 '
+                'verkehrt. es gilt der tarif des verkehrsverbunds region trier '
+                '(vrt). aufgrund der guten eisenbahnanbindung und der relativ '
+                'umständlichen erreichbarkeit auf der straße wird kordel '
+                'überhaupt nicht von linienbussen angefahren.bei grundsätzlich '
+                'weiterem interesse bieten wir ihnen auch gerne eine '
+                'innenbesichtigung durch die wohnung an. wir führen sie '
+                'kompetent und völlig unverbindlich. die in unseren exposé '
+                'darstellungen aufgenommenen daten beruhen auf '
+                'eigentümerangaben und sind unverbindlich. irrtümer können '
+                'nicht ausgeschlossen werden. bezüglich der inhalte verweisen '
+                'wir außerdem grundsätzlich auf unsere veröffentlichten '
+                'allgemeinen geschäftsbedingungen (agb in "link" impressum).',
+ 'external_id': '49117',
+ 'external_images_count': 16,
+ 'external_link': 'https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=49117',
+ 'external_source': 'Londonrelocations_PySpider_Germany_de',
+ 'images': ['https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568645.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568647.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568649.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568651.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568653.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568655.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568657.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568659.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568661.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568663.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568665.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568667.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568669.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568671.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568673.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/49117/Foto_568675.jpg'],
+ 'landlord_email': 'info@vermietungs-profi.de',
+ 'landlord_name': 'Mr.  Stephan Franzen   e.K.',
+ 'landlord_phone': '0651-993536-0',
+ 'latitude': '49.84001000000006',
+ 'longitude': '6.631260000000054',
+ 'parking': True,
+ 'position': 3,
+ 'property_type': 'apartment',
+ 'rent': '640',
+ 'room_count': 2,
+ 'square_meters': '87',
+ 'title': 'Idyllisches Wohnen In Kordel\r\nmit Balkon und Parkettboden',
+ 'utilities': '200',
+ 'washing_machine': True,
+ 'zipcode': '54306'}
+2022-01-21 14:43:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=57247> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 56, in populate_item
+    bathroom_count= detailsTable[detailsTable.index('Number of bathrooms')+1]
+ValueError: 'Number of bathrooms' is not in list
+2022-01-21 14:43:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=57251> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 56, in populate_item
+    bathroom_count= detailsTable[detailsTable.index('Number of bathrooms')+1]
+ValueError: 'Number of bathrooms' is not in list
+2022-01-21 14:43:38 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:39 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Trier&maxLocations=1 HTTP/1.1" 200 237
+2022-01-21 14:43:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61609>
+{'address': 'Diese Wohnung liegt im 1. Obergeschoss des Mehrfamilienhauses an '
+            'der neu erstellten Nikolaus-Leis-Straße in Trier!',
+ 'balcony': True,
+ 'bathroom_count': 1,
+ 'city': 'Trier',
+ 'currency': 'EUR',
+ 'deposit': '2355',
+ 'description': 'diese hochmoderne wohnung hat eine wohnfläche von ca. 59 m². '
+                'sie betreten die wohnung durch den eingangsbereich. von dort '
+                'aus erreichen sie das badezimmer mit integrierter dusche, den '
+                'wohn-/ essbereich inklusive einbauküche sowie das '
+                'schlafzimmer von wo aus sie zugang zum balkon haben. im '
+                'hauswirtschaftsraum haben sie den waschmaschinenanschluss '
+                'damit sie bequem in der wohnung die wäsche waschen können. '
+                'ebenso steht ihnen ein zu der wohnung zugehöriger kellerraum '
+                'zur verfügung, der ihnen genügend abstellfläche bietet.- '
+                'baujahr 2020 * kfw 70 energiesparhaus * massive bauweise * '
+                'fassade mit wärmedämmverbundsystem - fenster * 3-fach '
+                'isolierverglasung mit elektrisch betriebenen rollläden - '
+                'heizung * die wärme wird durch das fernwärmesystem einer '
+                'externen heizungsanlage geliefert * zentrale '
+                'warmwasseraufbereitung über heizsystem * fußbodenheizung - '
+                'böden * wärme- und trittschalldämmung * parkettfußböden in '
+                'den wohnbereichen - angenehmes raumklima durch geregelte '
+                'wohnraumlüftung mit wärmerückgewinnung zu den nebenkosten ist '
+                'zusätzlich der strom durch den mieter anzumelden. ein '
+                'stellplatz in der tiefgarage kann für 85,00 € / mtl. '
+                'angemietet werden.diese wohnung liegt im 1. obergeschoss des '
+                'mehrfamilienhauses an der neu erstellten nikolaus-leis-straße '
+                'in trier! das gesamtprojekt wird erstellt in einer exklusiven '
+                'wohnlage an der mosel. sie erreichen sowohl mosel als auch '
+                'die innenstadt fußläufig in wenigen minuten. außerdem wir der '
+                'bereich der mosel neu hergestellt und ausgestattet wie am neu '
+                'errichteten "zurlaubener ufer". hier wird in direkter nähe '
+                'eine erholungsfläche für sie hergestellt mit mehreren sitz- '
+                'und liegemöglichkeiten. zusätzlich ist man in einer zentralen '
+                'lage, um mit dem auto in die stadt, nach luxemburg oder aus '
+                'der stadt richtung a1 herauszufahren. trier, die älteste '
+                'stadt deutschlands, ist der kulturelle und wirtschaftliche '
+                'mittelpunkt der gesamten region. die großstadt trier hat '
+                'etwas mehr als einwohner und ist insbesondere durch die '
+                'zentrale lage auf dem europäischen markt ein '
+                'zukunftsstandort. die komplette infrastruktur eines '
+                'oberzentrums ist selbstverständlich vorhanden. zur '
+                'luxemburger grenze braucht man von trier aus ca. 10 '
+                'autominuten.bei grundsätzlich weiterem interesse bieten wir '
+                'ihnen auch gerne eine innenbesichtigung an. wir führen sie '
+                'kompetent und völlig unverbindlich. die in unseren exposé '
+                'darstellungen aufgenommenen daten beruhen auf '
+                'eigentümerangaben und sind unverbindlich. irrtümer können '
+                'nicht ausgeschlossen werden. bezüglich der inhalte verweisen '
+                'wir außerdem grundsätzlich auf unsere veröffentlichten '
+                'allgemeinen geschäftsbedingungen (agb in "link" impressum).',
+ 'elevator': True,
+ 'external_id': '61609',
+ 'external_images_count': 7,
+ 'external_link': 'https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61609',
+ 'external_source': 'Londonrelocations_PySpider_Germany_de',
+ 'images': ['https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61609/Foto_747939.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61609/Foto_747941.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61609/Foto_747943.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61609/Foto_747945.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61609/Foto_747947.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61609/Foto_747949.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61609/Foto_747951.jpg'],
+ 'landlord_email': 'info@vermietungs-profi.de',
+ 'landlord_name': 'Mr.  Stephan Franzen   e.K.',
+ 'landlord_phone': '0651-993536-0',
+ 'latitude': '49.757340000000056',
+ 'longitude': '6.636290000000031',
+ 'parking': True,
+ 'position': 4,
+ 'property_type': 'apartment',
+ 'rent': '785',
+ 'room_count': 1,
+ 'square_meters': '59',
+ 'title': 'Exklusiver KfW 70 Neubau, 2 ZKB-Wohnung mit Einbauküche und '
+          'Balkon...',
+ 'utilities': '115',
+ 'washing_machine': True,
+ 'zipcode': '54292'}
+2022-01-21 14:43:39 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:40 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Trier%20/%20Quint&maxLocations=1 HTTP/1.1" 200 270
+2022-01-21 14:43:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61627> (referer: https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f%5B2861-21%5D=0&f%5B2861-23%5D=0&f%5B2861-55%5D=0&f%5B2861-5%5D=wohnung&f%5B2861-41%5D=&f%5B2861-9%5D=&f%5B2861-8%5D=&f%5B2861-47%5D=&f%5B2861-49%5D=&f%5B2861-13%5D=)
+Traceback (most recent call last):
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "e:\scrapy_challange\venv\lib\site-packages\scrapy\core\spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "E:\scrapy_challange\londonrelocation\londonrelocation\spiders\londonrelocations.py", line 89, in populate_item
+    rent = detailsTable[detailsTable.index('Basic rent')+1][:-2]
+ValueError: 'Basic rent' is not in list
+2022-01-21 14:43:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:40 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Trierweiler&maxLocations=1 HTTP/1.1" 200 241
+2022-01-21 14:43:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61631>
+{'address': 'Trierweiler (4000 EW) ist eine Ortsgemeinde im Landkreis '
+            'Trier-Saarburg in Rheinland-Pfalz. Sie gehört der '
+            'Verbandsgemeinde Trier-Land an.',
+ 'balcony': True,
+ 'bathroom_count': 2,
+ 'city': 'Trierweiler',
+ 'currency': 'EUR',
+ 'deposit': '3400',
+ 'description': 'diese herrliche wohnung in einem mehrfamilienhaus in '
+                'trierweiler bietet ihnen auf 196m² 6 zimmer, 2 bäder und 1 '
+                'gäste-wc auf 2 etagen, zudem einen großen balkon mit '
+                'unverbauter, wunderschönen weitsicht in die hügel und wiesen '
+                'der umgebung. das großzügige wohnzimmer ist mit parkett '
+                'ausgelegt und bietet ihnen gleich 2 glastüren zum balkon. die '
+                'helle, hochwertige und voll ausgestattete küche verfügt über '
+                'eine essecke, viele schränke und eine küchentheke. auch von '
+                'hier haben sie über 2 glastüren zugang zum balkon. ein bad '
+                'ist mit sehr großer dusche, das andere mit badewanne und '
+                'separater dusche ausgestattet. beide sind hell und freundlich '
+                'gefliest, mit großen fenstern. alle zimmer sind mit parkett, '
+                'die ankleidezimmer mit lamitat ausgelegt, die bäder sind '
+                'gefliest. die parkettböden werden vor einzug abgeschliffen '
+                'und versiegelt. die zwei stockwerke werden über eine '
+                'innentreppe verbunden. zur wohnung gehört ein kellerraum. '
+                'hier handelt es sich um eine außergewöhnliche wohnung im '
+                'architektonisch extravaganten stil, ein seltenes objekt, '
+                'modern, funktionell, zum wohlfühlen! und das in stadtnaher '
+                'dörflicher umgebung, nach luxemburg sind es nur wenige '
+                'minuten zu fahren. in trier sind sie in 10 minuten.-2 '
+                'ankleiden,bzw. hauswirtschaftsräume -2 bäder -gäste-wc '
+                '-parkettboden (wird noch abgeschliffen und versiegelt!) '
+                '-fliesenboden -lampen in der gesamten wohnung und möbel in '
+                'den ankleidezimmern inklusive -restlichen möbel können '
+                'gekauft werden -einbauküche inklusive -kellerraum '
+                '-balkontrierweiler (4000 ew) ist eine ortsgemeinde im '
+                'landkreis trier-saarburg in rheinland-pfalz. sie gehört der '
+                'verbandsgemeinde trier-land an. zahlreiche '
+                'dorferneuerungsmaßnahmen und die ausweisung neuer baugebiete '
+                'haben trierweiler zu einer modernen und beliebten '
+                'wohngemeinde gemacht, die über alle einrichtungen der '
+                'nahversorgung verfügt. ein supermarkt ist von der wohnung '
+                'fußläufig zu erreichen. hinzu kommt das gewerbegebiet in '
+                'sirzenich, das sich mit seinen innovativen firmen und den '
+                'damit zusammenhängenden arbeitsplätzen zu einem wichtigen '
+                'standortfaktor entwickelt hat. mit fast 4.000 einwohnern ist '
+                'trierweiler nicht nur die größte gemeinde in der '
+                'verbandsgemeinde trier-land sondern auch im kreis '
+                'trier-saarburg. die luxemburger grenze erreichen sie mit dem '
+                'wagen in wenigen minuten, nach trier brauchen sie ca.10 '
+                'minuten für die 10 km. der ort liegt inmitten von '
+                'weitläufigen wald-und wiesenflächen, hinter dem haus beginnen '
+                'diese bereits mit dem garten.bei grundsätzlich weiterem '
+                'interesse bieten wir ihnen auch gerne eine innenbesichtigung '
+                'an. wir führen sie kompetent und völlig unverbindlich. die in '
+                'unseren exposé darstellungen aufgenommenen daten beruhen auf '
+                'eigentümerangaben und sind unverbindlich. irrtümer können '
+                'nicht ausgeschlossen werden. bezüglich der inhalte verweisen '
+                'wir außerdem grundsätzlich auf unsere veröffentlichten '
+                'allgemeinen geschäftsbedingungen (agb in "link" impressum).',
+ 'external_id': '61631',
+ 'external_images_count': 45,
+ 'external_link': 'https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61631',
+ 'external_source': 'Londonrelocations_PySpider_Germany_de',
+ 'furnished': True,
+ 'images': ['https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748997.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748909.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748911.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748913.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748915.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748917.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748919.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748921.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748923.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748925.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748927.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748929.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748931.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748933.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748935.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748937.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748939.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748941.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748943.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748945.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748947.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748949.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748951.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748953.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748955.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748957.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748959.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748961.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748963.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748965.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748967.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748969.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748971.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748973.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748975.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748977.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748979.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748981.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748983.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748985.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748987.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748989.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748991.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748993.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61631/_748995.jpg'],
+ 'landlord_email': 'info@vermietungs-profi.de',
+ 'landlord_name': 'Mr.  Stephan Franzen   e.K.',
+ 'landlord_phone': '0651-993536-0',
+ 'latitude': '49.76132000000007',
+ 'longitude': '6.559490000000039',
+ 'position': 5,
+ 'property_type': 'apartment',
+ 'rent': '1700',
+ 'room_count': 5,
+ 'square_meters': '196',
+ 'title': 'Luxemburgpendler aufgepasst! Exklusive, große Wohnung, 6 ZKB auf 2 '
+          'Etagen, viele Extras!',
+ 'utilities': '300',
+ 'zipcode': '54311'}
+2022-01-21 14:43:40 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): geocode.arcgis.com:443
+2022-01-21 14:43:41 [urllib3.connectionpool] DEBUG: https://geocode.arcgis.com:443 "GET /arcgis/rest/services/World/GeocodeServer/find?f=json&text=Trier&maxLocations=1 HTTP/1.1" 200 237
+2022-01-21 14:43:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61633>
+{'address': 'Die Wohnung befindet sich im Soutterrain eines 8-Familienhauses '
+            'in Trier-Irsch.',
+ 'bathroom_count': 1,
+ 'city': 'Trier',
+ 'currency': 'EUR',
+ 'deposit': '690',
+ 'description': 'objektnummer: 946933 dieses gemütliche apartment verfügt über '
+                'ca. 25 m² wohnfläche und bietet einen großen, hellen wohn/ '
+                'schlafbereich mit zugang zur eigenen terrasse und einem '
+                'garten zur mitbenutzung, eine küche inkl. pantryküche und '
+                'weiteren einbauelementen (regalschrank mit arbeitsplatte, '
+                'kann für 120 € von der vormiterin übernommen werden) sowie '
+                'ein tageslichtbad mit dusche. eine waschmaschine kann '
+                'ebenfalls übernommen werden für 120 €. der arbeitsplatz in '
+                'der küche kann ohne bürostuhl gratis übernommen werden. ein '
+                'gemeinschaftstrockenraum und keller stehen hier zur '
+                'verfügung. energy pass (for buildings)type: according to '
+                'consumptionvalid until: final consumption of energy: 132.00 '
+                'kwh/(m²*a)year of construction according energy pass: '
+                '1998main fuel type: oil- doppelverglaste isolierglasfenster '
+                'in kunststoff weiß - die böden sind mit pvc ausgestattet - '
+                'das haus verfügt über eine ölzentralheizung - kabel-anschluss '
+                'ist vorhanden, des weiteren selbstverständlich auch telefon- '
+                'und internetanschluss - der waschmaschinenanschluss befindet '
+                'sich im bad - zu den nebenkosten in höhe von 50,00 € sind '
+                'zusätzlich die stromkosten zu zahlendie wohnung befindet sich '
+                'im soutterrain eines 8-familienhauses in trier-irsch. irsch '
+                'ist einer der 19 ortsbezirke der stadt trier in '
+                'rheinland-pfalz. es ist einer der trierer höhenbezirke und '
+                'liegt zwischen kernscheid und filsch am südöstlichen rand der '
+                'stadt. irsch befindet sich in einer hügeligen landschaft und '
+                'ist umgeben von wiesen und wäldern sowie landwirtschaftlich '
+                'genutzter flächen. trier ist als kreisfreie stadt im westen '
+                'des landes rheinland-pfalz dessen viertgrößte stadt hinter '
+                'mainz, ludwigshafen am rhein und koblenz. die älteste stadt '
+                'deutschlands, ist der kulturelle und wirtschaftliche '
+                'mittelpunkt der gesamten region. die großstadt trier hat '
+                'etwas mehr als einwohner und ist insbesondere durch die '
+                'zentrale lage auf dem europäischen markt ein '
+                'zukunftsstandort. die komplette infrastruktur eines '
+                'oberzentrums ist selbstverständlich vorhanden. zur '
+                'luxemburger grenze braucht man von trier aus ca. 10 '
+                'autominuten.bei grundsätzlich weiterem interesse bieten wir '
+                'ihnen auch gerne eine innenbesichtigung an. wir führen sie '
+                'kompetent und völlig unverbindlich. die in unseren exposé '
+                'darstellungen aufgenommenen daten beruhen auf '
+                'eigentümerangaben und sind unverbindlich. irrtümer können '
+                'nicht ausgeschlossen werden. bezüglich der inhalte verweisen '
+                'wir außerdem grundsätzlich auf unsere veröffentlichten '
+                'allgemeinen geschäftsbedingungen (agb in "link" impressum).',
+ 'external_id': '61633',
+ 'external_images_count': 16,
+ 'external_link': 'https://smartsite2.myonoffice.de/kunden/vermietungsprofi/47/alle-immobilien.xhtml?f[2861-21]=0&f[2861-23]=0&f[2861-55]=0&f[2861-5]=wohnung&f[2861-41]=&f[2861-9]=&f[2861-8]=&f[2861-47]=&f[2861-49]=&f[2861-13]=&id[obj0]=61633',
+ 'external_source': 'Londonrelocations_PySpider_Germany_de',
+ 'images': ['https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/_749029.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_748999.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749001.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749003.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749005.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749007.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749009.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749011.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749013.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749015.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749017.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749019.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749021.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749023.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749025.jpg',
+            'https://image.onoffice.de/smart20/Objekte/vermietungsprofi/61633/Foto_749027.jpg'],
+ 'landlord_email': 'info@vermietungs-profi.de',
+ 'landlord_name': 'Mr.  Stephan Franzen',
+ 'landlord_phone': '0651- 99 35 36 0',
+ 'latitude': '49.757340000000056',
+ 'longitude': '6.636290000000031',
+ 'position': 6,
+ 'property_type': 'apartment',
+ 'rent': '345',
+ 'room_count': 1,
+ 'square_meters': '25',
+ 'terrace': True,
+ 'title': 'Super Appartement in Uni-Lage. Tolle Terrasse mit Weitblick!',
+ 'utilities': '50',
+ 'washing_machine': True,
+ 'zipcode': '54296'}
+2022-01-21 14:43:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-01-21 14:43:41 [scrapy.extensions.feedexport] INFO: Stored json feed (6 items) in: londonrelocations.json
+2022-01-21 14:43:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 14735,
+ 'downloader/request_count': 20,
+ 'downloader/request_method_count/GET': 20,
+ 'downloader/response_bytes': 170839,
+ 'downloader/response_count': 20,
+ 'downloader/response_status_count/200': 20,
+ 'elapsed_time_seconds': 13.670971,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 1, 21, 12, 43, 41, 643836),
+ 'httpcompression/response_bytes': 541025,
+ 'httpcompression/response_count': 20,
+ 'item_scraped_count': 6,
+ 'log_count/DEBUG': 52,
+ 'log_count/ERROR': 12,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 1,
+ 'response_received_count': 20,
+ 'scheduler/dequeued': 20,
+ 'scheduler/dequeued/memory': 20,
+ 'scheduler/enqueued': 20,
+ 'scheduler/enqueued/memory': 20,
+ 'spider_exceptions/ValueError': 12,
+ 'start_time': datetime.datetime(2022, 1, 21, 12, 43, 27, 972865)}
+2022-01-21 14:43:41 [scrapy.core.engine] INFO: Spider closed (finished)
